@@ -1,0 +1,435 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "find the form Bancolombia\u0027s savings and investment simulator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 37541382606,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on form Bancolombia\u0027s savings and investment simulator",
+            "match": {
+              "location": "stepDefinitions.userIsOnFormBancolombiaSSavingsAndInvestmentSimulator()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9382486596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "empty form",
+        "description": "",
+        "id": "savings-simulator-of-car-and-motorcycle-bancolombia-s-web-page;empty-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 901809386,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on form Bancolombia\u0027s savings and investment simulator without fill it any field",
+            "match": {
+              "location": "stepDefinitions.userIsOnFormBancolombiaSSavingsAndInvestmentSimulatorWithoutFillItAnyField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1815443761,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check that each form\u0027s field show a message the \"field is obligatory\" and button is disabled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "field is obligatory",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.checkThatEachFormSFieldShowAMessageTheAndButtonIsDisabled(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "find the form Bancolombia\u0027s savings and investment simulator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 30104551271,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on form Bancolombia\u0027s savings and investment simulator",
+            "match": {
+              "location": "stepDefinitions.userIsOnFormBancolombiaSSavingsAndInvestmentSimulator()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4918880027,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "check the elements form\u0027s field why do you want to savings?",
+        "description": "",
+        "id": "savings-simulator-of-car-and-motorcycle-bancolombia-s-web-page;check-the-elements-form-s-field-why-do-you-want-to-savings?",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2820948052,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user has got form\u0027s fields  why do you want to savings",
+            "match": {
+              "location": "stepDefinitions.userHasClickedFormSField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21512303,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check that are found  the amount and names of the elements of such field are right",
+            "match": {
+              "location": "stepDefinitions.checkThatAreFoundTheAmountAndNamesOfTheElementsOfSuchFieldAreRight()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "find the form Bancolombia\u0027s savings and investment simulator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29348201684,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on form Bancolombia\u0027s savings and investment simulator",
+            "match": {
+              "location": "stepDefinitions.userIsOnFormBancolombiaSSavingsAndInvestmentSimulator()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4763613048,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "without error message",
+        "description": "",
+        "id": "savings-simulator-of-car-and-motorcycle-bancolombia-s-web-page;without-error-message",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2089508156,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user have entered one correct data on form\u0027s field \"why do you want to savings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "why do you want to savings",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.userHaveEnteredOneCorrectDataOnFormSField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 708168422,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "form\u0027s field \"why do you want to savings\" don\u0027t show error message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "why do you want to savings",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.formSFieldDonTShowErrorMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Scenario3"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "find the form Bancolombia\u0027s savings and investment simulator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 33581984439,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on form Bancolombia\u0027s savings and investment simulator",
+            "match": {
+              "location": "stepDefinitions.userIsOnFormBancolombiaSSavingsAndInvestmentSimulator()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5445754612,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "check funtionatilly form",
+        "description": "",
+        "id": "savings-simulator-of-car-and-motorcycle-bancolombia-s-web-page;check-funtionatilly-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2228790342,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user have type one correct data on form\u0027s field \"how many months would  you like reach your goal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "how many months would  you like reach your goal",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.userHaveTypeOneCorrectDataOnFormsFieldSomething(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2562648690,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "form\u0027s field \"how many months would  you like reach your goal\" won\u0027t show error message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "how many months would  you like reach your goal",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.formsFieldSomethingWontShowErrorMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Scenario4"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "find the form Bancolombia\u0027s savings and investment simulator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31495452509,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on form Bancolombia\u0027s savings and investment simulator",
+            "match": {
+              "location": "stepDefinitions.userIsOnFormBancolombiaSSavingsAndInvestmentSimulator()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4576133498,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "fully form\u0027s elements",
+        "description": "",
+        "id": "savings-simulator-of-car-and-motorcycle-bancolombia-s-web-page;fully-form-s-elements",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1290518949,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user had typing one correct data on form\u0027s field \"select product\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "select product",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.userHadTypingOneCorrectDataOnFormSField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: element not visible \u0027Field fiducuenta from form\u0027 - Expected check visibility elements\nExpected: is \u003ctrue\u003e\n     but: was \u003cfalse\u003e\r\n\tat net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)\r\n\tat net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)\r\n\tat net.serenitybdd.screenplay.Actor.should(Actor.java:249)\r\n\tat com.accenture.cucumberSerenityGradleScreenplayChallenge.stepdefinitions.stepDefinitions.formSFieldWouldHavenTErrorMessage(stepDefinitions.java:101)\r\n\tat ✽.form\u0027s field \"select product\" would haven\u0027t error message(src/test/resources/features/savingSimulator.feature:31)\r\n",
+              "duration": 2859696222,
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "form\u0027s field \"select product\" would haven\u0027t error message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "select product",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.formSFieldWouldHavenTErrorMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Scenario5"
+          }
+        ]
+      }
+    ],
+    "name": "savings simulator of car and motorcycle bancolombia\u0027s web page",
+    "description": "I as customer, need that form\u0027s savings simulator, was working right for can know my savings and investment plan",
+    "id": "savings-simulator-of-car-and-motorcycle-bancolombia-s-web-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/savingSimulator.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="savings simulator of car and motorcycle bancolombia's web page" skipped="0" tests="5" time="210.71" timestamp="2019-01-30 11:48:47"><testcase name="empty form"/><testcase name="check the elements form's field why do you want to savings?"/><testcase name="without error message"/><testcase name="check funtionatilly form"/><testcase name="fully form's elements"><failure message="element not visible 'Field fiducuenta from form' - Expected check visibility elements&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">element not visible 'Field fiducuenta from form' - Expected check visibility elements
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>element not visible 'Field fiducuenta from form' - Expected check visibility elements
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+com.accenture.cucumberSerenityGradleScreenplayChallenge.stepdefinitions.stepDefinitions.formSFieldWouldHavenTErrorMessage(stepDefinitions.java:101)&#13;
+✽.form's field "select product" would haven't error message(src/test/resources/features/savingSimulator.feature:31)&#13;
+</system-err></testcase></testsuite>

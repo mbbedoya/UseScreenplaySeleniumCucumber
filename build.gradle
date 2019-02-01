@@ -1,0 +1,42 @@
+repositories {
+    jcenter()
+    mavenLocal()
+}
+
+buildscript {
+       repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.4") 
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'net.serenity-bdd.aggregator'  
+
+dependencies {
+       testCompile 'net.serenity-bdd:serenity-core:2.0.4' //Librerias enfocadas a pruebas                 
+       testCompile 'net.serenity-bdd:serenity-junit:2.0.4' //Librerias enfocadas a pruebas
+       compile group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '2.0.9'// Enfocadas a proyectos para java
+       compile group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '2.0.9'
+       compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.0.1'
+       compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+       testCompile('junit:junit:4.12') //Librerias enfocadas a pruebas
+       testCompile('org.assertj:assertj-core:1.7.0') //Librerias enfocadas a pruebas
+       testCompile('org.slf4j:slf4j-simple:1.7.7') //Librerias enfocadas a pruebas
+       testCompile 'net.serenity-bdd:serenity-cucumber:1.9.21' //Librerias enfocadas a pruebas
+       
+      // compile is the group of dependencies you need to build your application while testCompile is a group of dependencies that you need only for testing.
+       //A repository is a collection of modules, organized by group, name and version. Gradle understands different repository types, such as Maven 
+       //and Ivy, and supports various ways of accessing the repository via HTTP or other protocols.
+
+		//By default, Gradle does not define any repositories. You need to define at least one 
+		//with the help of Project.repositories{} before you can use module dependencies. One option is use the Maven Central repository:
+       
+    
+}
+
+
